@@ -1,0 +1,3 @@
+mutation MyMutation($firstName: CustomScalar = "MyDefault123", $lastName: CustomScalar!) {
+    my_put_operation(firstName: $firstName, lastName: $lastName)
+}

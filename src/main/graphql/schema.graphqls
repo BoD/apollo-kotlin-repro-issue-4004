@@ -1,0 +1,9 @@
+type Query {
+	a: String
+}
+
+type Mutation {
+	my_put_operation(firstName: CustomScalar! lastName: CustomScalar!) : CustomScalar
+}
+
+scalar CustomScalar
