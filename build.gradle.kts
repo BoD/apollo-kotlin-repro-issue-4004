@@ -21,4 +21,5 @@ dependencies {
 
 apollo {
     packageName.set("com.example")
+    addJvmOverloads.set(true)
 }
